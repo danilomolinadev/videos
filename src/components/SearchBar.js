@@ -5,7 +5,7 @@ class SearchBar extends React.Component{
     //Initialize state
     state = {term: ''};
 
-    //onChange event to target the input taht way we can type on it
+    //onChange event to target the input that way we can type on it
     onInputChange = (event) => {
         this.setState({term: event.target.value});
     };
