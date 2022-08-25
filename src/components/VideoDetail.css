@@ -1,0 +1,18 @@
+
+.loading{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: rgba(0,0,0,.87);
+    font-size: 38px;
+}
+
+.loading p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
